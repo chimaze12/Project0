@@ -1,0 +1,25 @@
+$primary-colour: green;
+$font-size0: 16px;
+
+
+.Intro-text {
+    margin-left: auto;
+    margin-right: auto;
+    p {
+        color: $primary-colour;
+        font-size: $font-size0;
+    }
+}
+
+.details > li{
+    color: rgb(18, 103, 65);
+
+}
+
+#top {
+    @extend .details;
+    font: bold;
+    font-style: italic;
+    font-size: large;
+}
+
